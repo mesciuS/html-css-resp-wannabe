@@ -137,3 +137,38 @@ img {
  }
 
  /* soluzione tablet */
+
+ @media screen and (max-width: 480px) {
+    
+    .container {
+        width: 100%;
+     }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 90%;
+    }
+
+    .steps .col {
+        width: 90%;
+    }
+    
+    .card {
+        padding-bottom: 50px;
+    }
+
+    .why-us .col-right {
+        width: 90%;
+    }
+
+    .why-us .col-left {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+ }
+
+ /* soluzione mobile */
